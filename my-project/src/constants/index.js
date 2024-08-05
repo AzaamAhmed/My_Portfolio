@@ -24,7 +24,10 @@ innovative solutions that foster business
 
 
 export const ABOUT_TEXT = 
-`I am a passionate full-stack developer with hands-on
+`I' am Azaam Ahmed From Colombo and crrently
+ studying Bachelor of IT specializing in IT
+ at SLIIT University. 
+I am a passionate full-stack developer with hands-on
 experience in building robust and scalable
 web applications. With a strong background
 in front-end technologies like React
