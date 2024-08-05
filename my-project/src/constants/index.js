@@ -23,24 +23,32 @@ innovative solutions that foster business
 
 
 
-export const ABOUT_TEXT = 
-`I' am Azaam Ahmed From Colombo and crrently
- studying Bachelor of IT specializing in IT
- at SLIIT University. 
-I am a passionate full-stack developer with hands-on
-experience in building robust and scalable
-web applications. With a strong background
-in front-end technologies like React
-and Next.js and back-end technologies including 
-Node.js, JavaScript, Java, and Python, I have honed my 
-skills through various semester projects. Additionally, I hold a 
-certification in Python for Data Science, AI & Development from IBM, 
-which has enriched my expertise in data science and its applications. 
-My goal is to leverage my diverse skill set to create innovative 
-solutions that drive business growth and deliver exceptional user 
-experiences. I thrive in collaborative environments, enjoy solving 
-complex problems, and am always eager to stay active and explore 
-new technologies, including contributing to open-source projects.`;
+ export const ABOUT_TEXT = 
+ `- **Name:** Azaam Ahmed
+ 
+ - **Location:** Colombo
+ 
+ - **Current Studies:** Bachelor of IT specializing in IT at SLIIT University
+ 
+ - **Passion:** Full-stack developer with hands-on experience in building robust and scalable web applications
+ 
+ - **Skills:**
+   - **Front-end Technologies:** React, Next.js
+   - **Back-end Technologies:** Node.js, JavaScript, Java, Python
+ 
+ - **Certification:** Python for Data Science, AI & Development from IBM
+ 
+ - **Experience:** Gained through various semester projects
+ 
+ - **Goal:**
+   - Leverage diverse skill set to create innovative solutions that drive business growth
+   - Deliver exceptional user experiences
+ 
+ - **Traits:**
+   - Thrives in collaborative environments
+   - Enjoys solving complex problems
+   - Eager to explore new technologies and contribute to open-source projects`;
+ 
 
 
 
