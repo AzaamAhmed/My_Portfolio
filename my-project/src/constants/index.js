@@ -28,7 +28,7 @@ innovative solutions that foster business
  
  - **Location:** Colombo
  
- - **Current Studies:** Bachelor of IT specializing in IT at SLIIT University
+ - **Current Studies:** Bachelor of I.T specializing in I.T at SLIIT University
  
  - **Passion:** Full-stack developer with hands-on experience in building robust and scalable web applications
  
