@@ -47,14 +47,64 @@ new technologies, including contributing to open-source projects.`;
 export const EXPERIENCES = [
   {
     id: 1,
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024",
+    certificateName: "Python for Data Science, AI & Development",
+    provider: "IBM (Coursera)",
+    link: "https://coursera.org/share/e46ae48752dd65940c437b8a807399f6",
+    technologies: ["Python", "Data Science", "AI", "Development"],
+  },
+
+  {
+    id: 2,
+    year: "2024",
+    certificateName: "JavaScript Mastery From Basics to Advanced",
+    provider: "Udemy",
+    link: "https://www.udemy.com/certificate/UC-2614ede9-72f4-441d-a8ed-da009ae2cdea/",
+    technologies: ["JavaScript"],
+  },
+
+  {
+    id: 3,
+    year: "2023",
+    certificateName: "Build 20 JavaScript Projects in 20 Day with HTML, CSS & JS - Udemy",
+    provider: "Udemy",
+    link: "https://www.udemy.com/certificate/UC-6cf04eb5-b219-41bf-b5fe-43a6e364441b/",
+    technologies: ["JavaScrip", "HTML", "CSS"],
+  },
+
+  {
+    id: 4,
+    year: "2024",
+    certificateName: "Python Complete Course For Python Beginners",
+    provider: "Udemy",
+    link: "https://www.udemy.com/certificate/UC-e722eacf-4288-4300-be48-3fdcda87335e/",
+    technologies: ["Python", "PyCharm"],
+  },
+
+  {
+    id: 5,
+    year: "2024",
+    certificateName: "Power BI for Hospital Management Systems",
+    provider: "Self Learn",
+    link: "https://www.linkedin.com/posts/azaamahmed_powerbi-dataanalytics-businessintelligence-activity-7222183274960277504-Y2RO?utm_source=share&utm_medium=member_desktop",
+    technologies: ["Power BI", "Hospital Management", "Data Visualization"],
   },
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

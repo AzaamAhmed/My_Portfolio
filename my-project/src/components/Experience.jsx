@@ -10,7 +10,7 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         className='my-20 text-center text-4xl'
       >
-        Experiences
+        Certificates
       </motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
@@ -23,28 +23,39 @@ const Experience = () => {
             >
               <p className='mb-2 text-sm text-neutral-400'>{experience.year}</p>
             </motion.div>
+                        
             <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className='w-full max-w-xl lg:w-3/4'
-            >
-              <h6 className='mb-2 font-semibold'>
-                {experience.role} -{' '}
-                <span className='text-sm text-purple-100'>{experience.company}</span>
-              </h6>
-              <p className='mb-4 text-neutral-400'>{experience.description}</p>
-              <div>
-                {experience.technologies.map((tech, techIndex) => (
-                  <span
-                    key={techIndex}
-                    className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </motion.div>
+  whileInView={{ opacity: 1, x: 0 }}
+  initial={{ opacity: 0, x: 100 }}
+  transition={{ duration: 1 }}
+  className='w-full max-w-xl lg:w-3/4'
+>
+  <h6 className='mb-2 text-base font-semibold'>
+    {experience.certificateName} -{' '}
+    <span className='text-xs text-purple-100'>{experience.provider}</span>
+  </h6>
+  <p className='mb-4 text-sm text-neutral-400'>Year: {experience.year}</p>
+  <a
+    href={experience.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className='text-sm text-blue-500 underline'
+  >
+    View Certificate
+  </a>
+  <div className='mt-4'>
+    {experience.technologies.map((tech, techIndex) => (
+      <span
+        key={techIndex}
+        className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-xs font-medium text-purple-800'
+      >
+        {tech}
+      </span>
+    ))}
+  </div>
+</motion.div>
+
+
           </div>
         ))}
       </div>

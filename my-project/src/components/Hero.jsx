@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/kevinRushProfile.jpg';
+import profilePicAzaam from '../assets/about1.jpeg';
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
@@ -41,16 +41,25 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            {/* Download CV Button */}
+            <a
+              href='/AHMED_MAA.pdf' 
+              download='AHMED_MAA.pdf' 
+              className='mt-6 inline-block rounded-lg bg-blue-900 px-6 py-2.5 text-white font-semibold text-lg shadow-md hover:bg-blue-600'
+            >
+              Download My CV
+            </a>
           </div>
         </div>
-        <div className='w-full lg:w-1/2 lg:p-8'>
+        <div className='w-full lg:w-1/4 lg:p-10'>
           <div className='flex justify-center'>
             <motion.img
+              className="mx-14 w-13 h-18 rounded-[20px]" 
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt='Profile Picture of Azaam Ahmed'
+              src={profilePicAzaam}
+              alt='azaamProfile'
             />
           </div>
         </div>
